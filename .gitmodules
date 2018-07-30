@@ -1,0 +1,9 @@
+[submodule "crunch"]
+	path = crunch
+	url = git@github.com:BinomialLLC/crunch.git
+[submodule "tpie"]
+	path = tpie
+	url = git@github.com:thomasmoelhave/tpie.git
+[submodule "flat_hash_map"]
+	path = flat_hash_map
+	url = git@github.com:skarupke/flat_hash_map.git
