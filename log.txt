@@ -1,106 +1,106 @@
 ================================> large std <=======================================
-start; linear_map std 50000000; max_rss: 3352 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 2371.01 ms; max_rss: 1259 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
+start; linear_map std 50000000; max_rss: 3472 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 2345.19 ms; max_rss: 1260 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
 12500000
-find_missing; time: 425.931 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
-find_existing; time: 364.636 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
-erase; time: 1103.16 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
+find_missing; time: 430.295 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
+find_existing; time: 370.443 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
+erase; time: 1083.84 ms; max_rss: 1264 mb; max_allocated: 1070 mb; max_allocations: 12500001; 
 12500000
 end; max_rss: 1264 mbbytes; max_allocated: 1070 mbbytes; max_allocations: 12500001; 
 ================================> large ska <=======================================
-start; linear_map ska 50000000; max_rss: 3504 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 1798.24 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
+start; linear_map ska 50000000; max_rss: 3568 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 1786.7 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
 12500000
-find_missing; time: 344.186 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
-find_existing; time: 374.832 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
-erase; time: 763.179 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
+find_missing; time: 265.948 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
+find_existing; time: 345.383 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
+erase; time: 756.65 ms; max_rss: 1659 mb; max_allocated: 1656 mb; max_allocations: 2; 
 12500000
 end; max_rss: 1659 mbbytes; max_allocated: 1656 mbbytes; max_allocations: 2; 
 ================================> large flat <=======================================
-start; linear_map flat 50000000; max_rss: 3544 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 2754.07 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
+start; linear_map flat 50000000; max_rss: 3324 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 2737.2 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
 12500000
-find_missing; time: 300.628 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
-find_existing; time: 275.713 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
-erase; time: 410.231 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
+find_missing; time: 297.235 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
+find_existing; time: 275.628 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
+erase; time: 402.573 ms; max_rss: 3459 mb; max_allocated: 3456 mb; max_allocations: 2; 
 12500000
 end; max_rss: 3459 mbbytes; max_allocated: 3456 mbbytes; max_allocations: 2; 
 ================================> large crn <=======================================
-start; linear_map crn 50000000; max_rss: 3352 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 2287.64 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
+start; linear_map crn 50000000; max_rss: 3492 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 2273.5 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
 12500000
-find_missing; time: 435.167 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
-find_existing; time: 419.123 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
-erase; time: 635.517 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
+find_missing; time: 448.524 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
+find_existing; time: 432.196 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
+erase; time: 642.761 ms; max_rss: 3459 mb; max_allocated: 0 b; max_allocations: 0; 
 12500000
 end; max_rss: 3459 mbbytes; max_allocated: 0 bbytes; max_allocations: 0; 
 ================================> large tpie <=======================================
-start; linear_map tpie 50000000; max_rss: 3496 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 855.643 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
-find_missing; time: 894.347 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
-find_existing; time: 869.331 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
-erase; time: 1429.84 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
+start; linear_map tpie 50000000; max_rss: 3484 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 861.747 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
+find_missing; time: 901.688 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
+find_existing; time: 869.294 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
+erase; time: 1437.6 ms; max_rss: 4390 mb; max_allocated: 0 b; max_allocations: 0; 
 12500000
 end; max_rss: 4390 mbbytes; max_allocated: 0 bbytes; max_allocations: 0; 
 ================================> large ordered <=======================================
-start; linear_map ordered 50000000; max_rss: 3308 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 2520.44 ms; max_rss: 1335 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
+start; linear_map ordered 50000000; max_rss: 3528 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 2479.32 ms; max_rss: 1335 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
 12500000
-find_missing; time: 1552.63 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
-find_existing; time: 1453.63 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
-erase; time: 1961.04 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
+find_missing; time: 1749.04 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
+find_existing; time: 1770.85 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
+erase; time: 2008.13 ms; max_rss: 1338 mb; max_allocated: 1239 mb; max_allocations: 12500000; 
 12500000
 end; max_rss: 1338 mbbytes; max_allocated: 1239 mbbytes; max_allocations: 12500000; 
 ================================> small std <=======================================
-start; linear_map std 400000000; max_rss: 3588 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 20.4658 s; max_rss: 4034 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
+start; linear_map std 400000000; max_rss: 3468 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 20.1768 s; max_rss: 4034 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
 100000000
-find_missing; time: 3619.96 ms; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
-find_existing; time: 3217.53 ms; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
-erase; time: 8.53167 s; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
+find_missing; time: 3592.98 ms; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
+find_existing; time: 3176.43 ms; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
+erase; time: 8.49708 s; max_rss: 4035 mb; max_allocated: 2506 mb; max_allocations: 100000001; 
 100000000
 end; max_rss: 4035 mbbytes; max_allocated: 2506 mbbytes; max_allocations: 100000001; 
 ================================> small ska <=======================================
-start; linear_map ska 400000000; max_rss: 3564 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 9.84981 s; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
+start; linear_map ska 400000000; max_rss: 3504 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 9.74206 s; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
 100000000
-find_missing; time: 1191.67 ms; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
-find_existing; time: 2428.86 ms; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
-erase; time: 9.49009 s; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
+find_missing; time: 1168.45 ms; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
+find_existing; time: 2336.85 ms; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
+erase; time: 9.3879 s; max_rss: 1731 mb; max_allocated: 1728 mb; max_allocations: 2; 
 100000000
 end; max_rss: 1731 mbbytes; max_allocated: 1728 mbbytes; max_allocations: 2; 
 ================================> small flat <=======================================
-start; linear_map flat 400000000; max_rss: 3456 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 7.97041 s; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
+start; linear_map flat 400000000; max_rss: 3356 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 8.03268 s; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
 100000000
-find_missing; time: 2297.12 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
-find_existing; time: 2340.26 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
-erase; time: 2942.04 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
+find_missing; time: 2301.42 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
+find_existing; time: 2326.31 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
+erase; time: 2986.35 ms; max_rss: 4611 mb; max_allocated: 4608 mb; max_allocations: 2; 
 100000000
 end; max_rss: 4611 mbbytes; max_allocated: 4608 mbbytes; max_allocations: 2; 
 ================================> small crn <=======================================
-start; linear_map crn 400000000; max_rss: 3528 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 6.92318 s; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
+start; linear_map crn 400000000; max_rss: 3328 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 4992.88 ms; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
 100000000
-find_missing; time: 3434.45 ms; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
-find_existing; time: 3572.75 ms; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
-erase; time: 5.38349 s; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
+find_missing; time: 3304.63 ms; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
+find_existing; time: 3511.76 ms; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
+erase; time: 5.17435 s; max_rss: 4611 mb; max_allocated: 0 b; max_allocations: 0; 
 100000000
 end; max_rss: 4611 mbbytes; max_allocated: 0 bbytes; max_allocations: 0; 
 ================================> small tpie <=======================================
-start; linear_map tpie 400000000; max_rss: 1988 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 9.91258 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
-find_missing; time: 9.60045 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
-find_existing; time: 9.30976 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
-erase; time: 16.2874 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
+start; linear_map tpie 400000000; max_rss: 3372 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 9.41948 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
+find_missing; time: 9.56112 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
+find_existing; time: 9.1915 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
+erase; time: 15.9217 s; max_rss: 12210 mb; max_allocated: 0 b; max_allocations: 0; 
 100000000
 end; max_rss: 12210 mbbytes; max_allocated: 0 bbytes; max_allocations: 0; 
 ================================> small ordered <=======================================
-start; linear_map ordered 400000000; max_rss: 3480 kb; max_allocated: 0 b; max_allocations: 0; 
-insert; time: 16.4982 s; max_rss: 4578 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
+start; linear_map ordered 400000000; max_rss: 3552 kb; max_allocated: 0 b; max_allocations: 0; 
+insert; time: 16.6234 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
 100000000
-find_missing; time: 11.7301 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
-find_existing; time: 10.4203 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
-erase; time: 14.4321 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
+find_missing; time: 11.569 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
+find_existing; time: 12.5353 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
+erase; time: 14.4691 s; max_rss: 4580 mb; max_allocated: 3814 mb; max_allocations: 100000000; 
 100000000
 end; max_rss: 4580 mbbytes; max_allocated: 3814 mbbytes; max_allocations: 100000000; 

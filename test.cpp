@@ -171,7 +171,7 @@ void test_linear_set(int count) {
 template <typename S, typename Gen, typename V, typename R>
 void test_map4(uint32_t count, Gen gen, V v, R r) {
   S s;
-  r(s, count);
+  r(s, count/4);
   auto t1 = hpet::now();
   for (uint32_t i=0; i < count; i += 4)
     s.insert(std::make_pair(gen(i), v));
@@ -245,13 +245,13 @@ void test_map3(uint32_t cnt, std::string map) {
   typedef tpie::hash_map<uint32_t, V> tpie_map;
   
   if (map == "std")
-    test_map4<std_map>(cnt, Gen(), V(), [](auto m, auto cnt) {/*m.reserve(cnt);*/});
+    test_map4<std_map>(cnt, Gen(), V(), [](auto m, auto cnt) {m.reserve(cnt/4);});
   else if (map == "ska")
-    test_map4<ska_map>(cnt, Gen(), V(), [](auto m, auto cnt) {/*m.reserve(cnt);*/});
+    test_map4<ska_map>(cnt, Gen(), V(), [](auto m, auto cnt) {m.reserve(cnt/4);});
   else if (map == "flat")
-    test_map4<flat_map>(cnt, Gen(), V(), [](auto m, auto cnt) {/*m.reserve(cnt);*/});
+    test_map4<flat_map>(cnt, Gen(), V(), [](auto m, auto cnt) {m.reserve(cnt/4);});
   else if (map == "crn")
-    test_map4<crn_map>(cnt, Gen(), V(), [](auto m, auto cnt) {/*m.reserve(cnt);*/});
+    test_map4<crn_map>(cnt, Gen(), V(), [](auto m, auto cnt) {m.reserve(cnt/4);});
   else if (map == "ordered")
     test_map4<ordered_map>(cnt, Gen(), V(), [](auto m, auto cnt) {});
   else if (map == "tpie")
